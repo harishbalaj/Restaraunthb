@@ -1,0 +1,76 @@
+    html {
+        scroll-behavior: smooth;
+      }
+
+      .nav-link {
+        font-weight: bold;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      .dropdown-item {
+        font-weight: bold;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      #about h1 {
+        text-align: center;
+        color: #d63d3d;
+      }
+
+      .about-text p {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .carousel-caption {
+        bottom: 400px;
+        z-index: 2;
+      }
+
+      .carousel-caption h5 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Times New Roman", Times, serif;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        color: wheat;
+      }
+
+      .about-img {
+        display: flex;
+        justify-content: center;
+      }
+
+      .contact-text h1 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        text-align: center;
+        color: rgb(211, 85, 40);
+      }
+
+      .contact-text img {
+        transition: all 0.4s;
+      }
+
+      .contact-text img:hover {
+        transform: scale(1.15);
+      }
+
+      .icon {
+        font-size: 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .icon i:hover {
+        color: orangered;
+      }
+
+      .card img {
+        transition: all 0.4s;
+      }
+
+      .card:hover img {
+        transform: scale(1.15);
+      }
